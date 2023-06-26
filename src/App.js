@@ -7,6 +7,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import 'bootstrap/dist/js/bootstrap.min.js';
 import Counter from './Counter';
 import Amazon from './Amazon'
+import AmazonNew from './AmazonNew';
 
 
 function App() {
@@ -29,7 +30,8 @@ function App() {
       {/*      
     <Layout/> */}
       
-       <Amazon/>
+       {/* <Amazon/> */}
+       <AmazonNew/>
 
        {/* <Counter/> */}
       {/* <ReactRouter/> */}

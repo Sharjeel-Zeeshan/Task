@@ -2,6 +2,11 @@ import logo from './logo.svg';
 import './App.css';
 
 import ReactRouter from './ReactRouter';
+import Layout from './Layout';
+import 'bootstrap/dist/css/bootstrap.min.css';
+import 'bootstrap/dist/js/bootstrap.min.js';
+import Counter from './Counter';
+import Amazon from './Amazon'
 
 
 function App() {
@@ -21,10 +26,14 @@ function App() {
           Learn React
         </a>
       </header> */}
-     
+      {/*      
+    <Layout/> */}
+      
+       <Amazon/>
 
-     <ReactRouter/>
-     
+       {/* <Counter/> */}
+      {/* <ReactRouter/> */}
+
     </div>
   );
 }
